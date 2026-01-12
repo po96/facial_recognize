@@ -32,11 +32,7 @@ async function startAnalysis() {
             alert(`응답 형식이 다릅니다: ${resultText}`);
         }
 
-    } catch (error) {
-        console.error("전체 에러:", error);
-        alert("네트워크 오류 또는 서버 응답 실패입니다. 인터넷 연결과 API 키를 확인하세요.");
     }
-}
 
 // 이미지 리사이징 (API 안정성을 위해 크기 조절)
 function getBase64(img) {
