@@ -248,6 +248,16 @@ const CHARACTER_DATA = [
     "description": "뾰족한 가시 뒤에 수줍은 미소를 숨기고 있어요. 처음엔 낯을 가리지만 친해지면 자신의 소중한 꽃을 나누어 주는 따뜻한 성격으로, 밤마다 작은 발로 숲을 산책한답니다.",
     "keywords": ["평화주의자", "느긋함", "힐링_전문"],
     "personality_type": "The Philosopher (철학자)"
+  },
+  {
+    "id": 99,
+    "animal_ko": "Undefined",
+    "animal_en": "Undefined",
+    "match_tag": "Undefined",
+    "image_url": "",
+    "description": "아주 멋진 성격이에요!.",
+    "keywords": ["미스테리", "신비로움"],
+    "personality_type": "The Unnown (알려지지않은자)"
   }
   
 ]
