@@ -6,12 +6,6 @@ async function startAnalysis() {
     // 1. 이미지 변환
     const base64Image = await getBase64(uploadedImage);
 
-// js/ai.js 내의 fetch 부분 수정
-
-
-
-
-
 
     try {
         // 2. 중요: OpenAI가 아니라 내 서버(/api/analyze)로 요청을 보냄
