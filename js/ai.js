@@ -6,6 +6,13 @@ async function startAnalysis() {
     // 1. 이미지 변환
     const base64Image = await getBase64(uploadedImage);
 
+// js/ai.js 내의 fetch 부분 수정
+
+
+
+
+
+
     try {
         // 2. 중요: OpenAI가 아니라 내 서버(/api/analyze)로 요청을 보냄
         const response = await fetch("/api/analyze", {
@@ -16,10 +23,12 @@ async function startAnalysis() {
 
         const data = await response.json();
 
-        if (data.error) {
-            alert("서버 에러: " + data.error);
-            return;
-        }
+		if (data.error) {
+			// [object Object] 대신 실제 상세 내용을 문자열로 확인
+			console.log("상세 에러:", data.error);
+			alert("서버 에러 상세: " + JSON.stringify(data.error)); 
+			return;
+		}
 
         const resultText = data.choices[0].message.content.trim();
         const match = resultText.match(/([^: \n]+):([0-9]+)/);
