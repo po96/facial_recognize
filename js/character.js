@@ -45,8 +45,8 @@ const CHARACTER_DATA = [
     "animal_en": "Mouse",
     "match_tag": "쥐",
     "image_url": "image/5.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
-    "keywords": ["평화주의자", "느긋함", "힐링_전문"],
+    "description": "작지만 누구보다 부지런한 살림꾼이에요. 주머니 속에 항상 맛있는 치즈 조각을 숨겨두었다가 배고픈 친구에게 몰래 나눠주는 다정한 마음씨를 가졌답니다.",
+    "keywords": ["살림꾼", "부지런함", "다정함"],
     "personality_type": "The Philosopher (철학자)"
   },
   {
@@ -65,7 +65,7 @@ const CHARACTER_DATA = [
     "animal_en": "Tiger",
     "match_tag": "호랑이",
     "image_url": "image/7.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
+    "description": "씩씩하고 용감해 보이지만 사실은 꽃향기를 맡는 걸 좋아하는 감성파예요. 머리에 쓴 꽃장식처럼 항상 밝은 에너지를 뿜으며 친구들을 든든하게 지켜준답니다.",
     "keywords": ["평화주의자", "느긋함", "힐링_전문"],
     "personality_type": "The Philosopher (철학자)"
   },
@@ -75,7 +75,7 @@ const CHARACTER_DATA = [
     "animal_en": "Dragon",
     "match_tag": "용",
     "image_url": "image/8.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
+    "description": "하늘 위 구름 사탕을 만드는 것이 취미인 몽상가예요. 무서운 불 대신 무지개 비눗방울을 뿜으며 숲속 친구들에게 마술 쇼를 보여주는 인기가 만점인 친구랍니다.",
     "keywords": ["평화주의자", "느긋함", "힐링_전문"],
     "personality_type": "The Philosopher (철학자)"
   },
@@ -185,9 +185,9 @@ const CHARACTER_DATA = [
     "animal_en": "Cat",
     "match_tag": "고양이",
     "image_url": "image/18.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
-    "keywords": ["평화주의자", "느긋함", "힐링_전문"],
-    "personality_type": "The Philosopher (철학자)"
+    "description": "당신은 알다가도 모를 매력을 가진 예술가예요. 가끔은 혼자만의 시간이 필요하지만, 소중한 사람에겐 은근슬쩍 다가가 애교를 부리는 '츤데레' 매력이 있죠. 예리한 관찰력을 가졌으며, 남들은 모르는 나만의 확고한 취향을 즐깁니다.",
+    "keywords": ["독립적", "예리함", "신비로운_매력"],
+    "personality_type": "The Artist (섬세한 예술가)"
   },
   {
     "id": 19,
@@ -195,9 +195,9 @@ const CHARACTER_DATA = [
     "animal_en": "Bear",
     "match_tag": "곰",
     "image_url": "image/19.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
-    "keywords": ["평화주의자", "느긋함", "힐링_전문"],
-    "personality_type": "The Philosopher (철학자)"
+    "description": "당신은 숲속의 든든한 보호자예요. 푸근한 인상 속에 깊은 배려심을 간직하고 있어 친구들이 가장 의지하는 존재죠. 묵묵히 자신의 자리를 지키며, 맛있는 음식을 나눠 먹을 때 가장 행복해하는 따뜻한 마음의 소유자입니다.",
+    "keywords": ["든든함", "배려심", "미식가"],
+    "personality_type": "The Guardian (든든한 수호자))"
   },
   {
     "id": 20,
@@ -205,9 +205,9 @@ const CHARACTER_DATA = [
     "animal_en": "Dear",
     "match_tag": "사슴",
     "image_url": "image/20.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
-    "keywords": ["평화주의자", "느긋함", "힐링_전문"],
-    "personality_type": "The Philosopher (철학자)"
+    "description": "당신은 맑은 이슬을 닮은 순수한 몽상가예요. 맑은 눈망울처럼 세상을 아름답게 바라보며, 타인의 감정을 섬세하게 읽어내는 능력이 탁월합니다. 조용하지만 우아한 분위기를 풍기며, 주변 사람들을 기분 좋게 만드는 맑은 에너지를 가졌어요.",
+    "keywords": ["순수함", "공감능력", "우아함"],
+    "personality_type": "The Dreamer (순수한 공상가)"
   },
   {
     "id": 21,
@@ -235,17 +235,17 @@ const CHARACTER_DATA = [
     "animal_en": "Owl",
     "match_tag": "올빼미",
     "image_url": "image/23.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
+    "description": "밤하늘의 별자리 이름을 모두 알고 있는 박학다식한 친구예요. 커다란 안경 너머로 지혜로운 조언을 해주며, 밤마다 친구들이 무서운 꿈을 꾸지 않도록 노래를 불러준답니다.",
     "keywords": ["평화주의자", "느긋함", "힐링_전문"],
     "personality_type": "The Philosopher (철학자)"
   },
   {
     "id": 24,
     "animal_ko": "고슴도치",
-    "animal_en": "Owl",
+    "animal_en": "Hedgehog",
     "match_tag": "고슴도치",
     "image_url": "image/24.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
+    "description": "뾰족한 가시 뒤에 수줍은 미소를 숨기고 있어요. 처음엔 낯을 가리지만 친해지면 자신의 소중한 꽃을 나누어 주는 따뜻한 성격으로, 밤마다 작은 발로 숲을 산책한답니다.",
     "keywords": ["평화주의자", "느긋함", "힐링_전문"],
     "personality_type": "The Philosopher (철학자)"
   }
