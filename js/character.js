@@ -115,9 +115,9 @@ const CHARACTER_DATA = [
     "animal_en": "Monkey",
     "match_tag": "원숭이",
     "image_url": "image/12.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
-    "keywords": ["평화주의자", "느긋함", "힐링_전문"],
-    "personality_type": "The Philosopher (철학자)"
+    "description": "당신은 어디를 가나 분위기를 밝게 만드는 타고난 재기꾼이에요. 호기심이 많아 새로운 환경에 적응하는 능력이 뛰어나며, 재치 있는 말솜씨로 주변 사람들을 즐겁게 합니다. 가끔은 장난기가 넘치지만, 사실 누구보다 눈치가 빠르고 상황 판단력이 좋습니다.",
+    "keywords": ["사교적", "재치", "빠른_적응력"],
+    "personality_type": "The Entertainer (재치 있는 분위기 메이커)"
   },
   {
     "id": 13,
@@ -215,9 +215,9 @@ const CHARACTER_DATA = [
     "animal_en": "Whale",
     "match_tag": "고래",
     "image_url": "image/21.jpg",
-    "description": "당신은 대나무 숲의 느긋한 철학자예요. 폭신한 뱃살처럼 친구들에게 안락함을 제공하며, 어떤 급한 일도 판다와 함께라면 여유로워진답니다. 평화주의자이며 낮잠 자는 것을 가장 좋아해요.",
-    "keywords": ["평화주의자", "느긋함", "힐링_전문"],
-    "personality_type": "The Philosopher (철학자)"
+    "description": "당신은 넓은 마음과 깊은 내면을 가진 평화로운 사색가예요. 눈앞의 사소한 일에 일희일비하기보다 긴 호흡으로 세상을 바라보는 여유가 있습니다. 묵묵히 자신의 길을 가는 당신의 모습은 주변 사람들에게 큰 신뢰와 안정감을 줍니다.",
+    "keywords": ["포용력", "차분함", "깊은_내면"],
+    "personality_type": "The Thinker (깊은 마음의 사색가)"
   },
   {
     "id": 22,
@@ -235,9 +235,9 @@ const CHARACTER_DATA = [
     "animal_en": "Owl",
     "match_tag": "올빼미",
     "image_url": "image/23.jpg",
-    "description": "밤하늘의 별자리 이름을 모두 알고 있는 박학다식한 친구예요. 커다란 안경 너머로 지혜로운 조언을 해주며, 밤마다 친구들이 무서운 꿈을 꾸지 않도록 노래를 불러준답니다.",
-    "keywords": ["평화주의자", "느긋함", "힐링_전문"],
-    "personality_type": "The Philosopher (철학자)"
+    "description": "당신은 모두가 잠든 밤에도 진실을 꿰뚫어 보는 지혜로운 전략가예요. 신중하고 분석적인 태도로 문제를 해결하며, 어떤 상황에서도 객관적인 시각을 잃지 않습니다. 조용하지만 날카로운 통찰력을 바탕으로 가장 효율적인 길을 찾아내는 능력이 탁월합니다.",
+    "keywords": ["분석적", "신중함", "지혜"],
+    "personality_type": "The Strategist (지혜로운 전략가)"
   },
   {
     "id": 24,
